@@ -7,7 +7,7 @@ const server = udp.createSocket("udp4");
 
 // Emits when any error occurs
 server.on("error", function(error) {
-  console.error("Error: " + error);
+  console.error(error);
   server.close();
 });
 

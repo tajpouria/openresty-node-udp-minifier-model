@@ -18,7 +18,7 @@ configure arguments: --prefix=/usr/local/openresty/nginx --with-cc-opt='-O2 -DNG
 
 - Consider [./nginx.conf](./nginx.conf) as NGINX entry point configuration and repository root path as NGINX path prefix _Take a look at [./run.sh](./run.sh)_.
 - Run [ ./src/minify-cache-server/app.ts ](./src/minify-cache-server/app.ts) UDP sever on you local host and port `2222` _Consider changing both [./src/send-minifier-sig.lua](./src/send-minifier-sig.lua) and [./src/minify-cache-server/app.ts](./src/minify-cache-server/app.ts) for udp minifier server host and port modification_.
-- Head over to [https://127.0.0.1:4333/](https://127.0.0.1:4333/) it will populate NGINX cache [./cache](./cache) and trigger minimization server to take action.
+- Head over to [https://127.0.0.1:433/](https://127.0.0.1:4333/) it will populate NGINX cache [./cache](./cache) and trigger minimization server to take action.
 
 ## License
 

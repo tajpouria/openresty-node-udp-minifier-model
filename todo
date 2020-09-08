@@ -1,2 +1,6 @@
 [] Disable openresty response header
 [] Gzip
+
+## Maybe
+[] Purge cache udp logic
+[] Minify all udp logic
